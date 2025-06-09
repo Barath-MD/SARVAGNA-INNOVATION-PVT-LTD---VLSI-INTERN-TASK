@@ -1,0 +1,4 @@
+read_verilog mux_2to1.v
+synth -top mux_2to1
+write_verilog mux_2to1_netlist.v
+write_json mux_2to1.json
